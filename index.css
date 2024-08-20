@@ -91,10 +91,6 @@ header a:hover{
     color: white;
 }
 
-#Coleccionistas-Famosos .container{
-    text-align: center;
-    padding: 200px 12px;
-}
 #Los-Modelos-Mas-Antiguos{
     background-color: rgb(30,0,0);
     color: white;
@@ -111,6 +107,7 @@ header a:hover{
 }
 
 .carta:first-child{
+    color: white;
     background-image: linear-gradient(0deg, 
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
@@ -118,9 +115,19 @@ header a:hover{
     ,url("media-img/colection-car-2.jpg");
 
 }
-.carta: :nth-child(2){
-    
+.carta:nth-child(2){
+    color: white;
+    background-image: linear-gradient(0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media-img/colection-car-3.jpg");
 }
-.carta: :nth-child(3){
-    
+.carta:nth-child(3){
+    color: white;
+    background-image: linear-gradient(0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media-img/colection-car-4.jpg");
 }
