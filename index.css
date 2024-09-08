@@ -22,6 +22,11 @@ button {
     box-shadow: 2px 2px 10px rgb(0,0,0,0.5);
     color: white;
     background-color: blueviolet;
+     display: block; 
+     margin: 0 auto;
+    
+    
+    
 }
 
 button:hover{
@@ -113,6 +118,10 @@ header a:hover{
         rgba(0,0,0,0.5)
     )
     ,url("media-img/colection-car-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
 
 }
 .carta:nth-child(2){
@@ -122,6 +131,9 @@ header a:hover{
         rgba(0,0,0,0.5)
     )
     ,url("media-img/colection-car-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 .carta:nth-child(3){
     color: white;
@@ -130,4 +142,29 @@ header a:hover{
         rgba(0,0,0,0.5)
     )
     ,url("media-img/colection-car-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#caracteristicas .container{
+    
+    padding: 200px 12px;
+}
+
+#caracteristicas li{
+   margin-top: 16px 0px;
+   font-weight: bold; 
+   text-align: center;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
 }
